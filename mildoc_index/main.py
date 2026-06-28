@@ -54,7 +54,7 @@ def main():
         if args.provider == "oss":
             from oss_event_handler import OSSEventHandler
             listener = OSSEventHandler()
-            logger.info(f"使用 OSS 最为对象存储提供商")
+            logger.info(f"使用 OSS 作为对象存储提供商")
         else:
             from minio_event_handler import MinioEventHandler
             listener = MinioEventHandler()

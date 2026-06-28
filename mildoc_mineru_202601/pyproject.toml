@@ -1,0 +1,16 @@
+[project]
+name = "mildoc-mineru"
+version = "1.1.0"
+description = "mildoc 是一个企业知识库管理系统，MinerU 用于解析复杂PDF文件。"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "av==16.0.1",
+    "mineru[all]==2.7.0",
+]
+
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true

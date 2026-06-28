@@ -17,7 +17,7 @@ class EmbeddingTool:
             api_key=os.getenv("OPENAI_API_KEY"),
             base_url=os.getenv("OPENAI_BASE_URL")
         )
-        self.model = os.getenv("ENBEDDING_MODEL")
+        self.model = os.getenv("EMBEDDING_MODEL")
         self.dimensions = int(os.getenv("MILVUS_VECTOR_DIM"))
         self.encoding_format = "float"
 
